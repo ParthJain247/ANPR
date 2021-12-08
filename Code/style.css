@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   overflow-x:hidden ;
+}
+/* NAVBAR STARTS HERE */
+
+.nav-bar{
+    display: flex;
+    padding: 2% 5%;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    position:fixed;
+    width: 100%;
+    
+}
+
+.get-started,.login-btn{
+    color: rgba(38, 107, 160, 1);
+    font-size: 1.5vw;
+    margin-top: -2%;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.get-started:hover,.login-btn:hover{
+    border-bottom: 4px solid #fbb03b;
+}
+
+.logo-1{
+    width:60%;
+}
+
+
+
+.nav_text{
+    width: 40%;
+    padding-left: 50%;
+    padding-top:1.5%;
+    display:flex;
+    gap:10%;
+}
+/* NAVBAR ENDS HERE */
+/* BANNER STARTS HERE */
+
+.banner{
+    background-image: url("/images/Red Banner.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size:cover;
+    height:100vh;
+    padding: 0% 0% 5% 0%;
+    
+}
+
+.bannerimg{
+    width: 40%;
+    padding-left: 50%;
+    margin-top: -25%;
+    
+}
+
+.future{
+    font-family: "Raleway";
+    width:45%;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.18;
+    text-align: left;
+    color: #f75878;
+    padding-top: 20%;
+    padding-left: 4%;
+}
+
+.future_text{
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    font-weight: 550;
+    line-height: 1.43;
+    text-align: left;
+    color: #fbb03b;   
+    width:50%;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+
+.about{
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+.aboutimg {
+    width: 90%;
+    height: 80%;
+    padding: 7% 15% 15% 7%;
+}
+
+.What-is-MyGuardian {
+    font-family: "Raleway"; 
+    font-size: 3vw;
+    padding: 5% 0% 0% 8%;
+    font-weight: bold;
+    color: #f75878;
+}
+
+.about_text{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    padding: 3% 18% 5% 0%;
+    line-height: 1.88;
+    color: #707070;
+}
+
+/* WORKING SECTION STARTS */
+
+.working{
+    text-align: center;
+    width: 100%;
+    padding: 5% 0% 5% 0%;
+}
+.working h3{
+    font-size: 3vw;
+    font-family: Raleway;
+    margin-left:auto;
+    text-align: center;
+    color: #f75878;
+    padding-bottom: 3%;
+    margin-right: auto;
+
+}
+.working-text{
+    margin-left:auto;
+    text-align: center;
+    margin-right: auto;
+    width:80%;
+    padding-bottom: 2%;
+}
+
+.working-text p{
+    font-family: Montserrat;
+    color: #fbb03b;
+    text-align: center;
+    line-height: 250%;
+    font-weight: 700;
+}
+/* WORKING SECTION ENDS HERE */
+
+.step1{
+    display:flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+.text-area{
+    width:40%;
+    text-align: left;
+    font-family: Montserrat;
+    line-height: 275%;
+    font-weight: 650;
+    color: #707070;
+    margin-top: 3%;
+}
+.img-area{
+    width:35%;
+    margin-top: -4%;
+}
+/* step-2 */
+.step2{
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    padding: 2% 2% 10% 2%;
+}
+
+.text-area2{
+    width:40%;
+    text-align: left;
+    font-family: Montserrat;
+    line-height: 275%;
+    font-weight: 650;
+    color: #707070;
+    margin-top: 3%;
+}
+.img-area2{
+    width:35%;
+    margin-top: -8%;
+   
+}
+
+
+/* MyGuardaian FOR EVERY NEED */
+.need{
+    text-align: center;
+    width: 100%;
+    padding: 0% 0% 6% 0%;
+}
+
+.need h3{
+    font-size: 3vw;
+    font-family: Raleway;
+    margin-left:auto;
+    text-align: center;
+    color: #f75878;
+    margin-right: auto;
+
+}
+
+.needs{
+    margin-left:auto;
+    text-align: center;
+    margin-right: auto;
+    width:80%;
+    padding-bottom: 2%;
+
+}
+
+.needs h3{
+    font-size: 2.5vw;
+    font-family: Montserrat;
+    color: #fbb03b;
+    text-align: center;
+    line-height: 250%;
+    font-weight: 700;
+}
+
+.needs-text p{
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 250%;
+    font-weight: 700;
+    color: #707070;
+}
+
+.needimg {
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    padding: 0% 45% 0% 32%;
+    margin-top: 3%;
+}
+
+
+/* Meet the Team */
+.meet-team{
+    padding:0% 5% 10% 5%;
+    text-align: center;
+}
+.meet-team h3{
+    font-family: Raleway;
+    font-size: 3vw;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #f75878;
+    padding-bottom: 5%;
+}
+.team-pics{
+    display: flex;
+    text-align: center;
+}
+.t-image{
+    width:80%;
+    padding-bottom: 8%;
+}
+
+.team-name{
+    font-size: 1.5vw;
+    font-family: Raleway;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #707070;
+}
